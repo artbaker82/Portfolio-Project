@@ -11,3 +11,63 @@ function scrollfunction() {
     document.getElementById("navbar").classList.remove("bg-dark");
   }
 }
+
+function isInViewport(el) {
+  const rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+function getRect(el) {
+  return el.getBoundingClientRect();
+}
+
+const home = document.querySelector("#home");
+const about = document.querySelector("#about");
+const contact = document.querySelector("#contact");
+let visible = {
+  home: true,
+  about: false,
+  contact: false,
+};
+
+document.addEventListener("scroll", function () {
+  document.querySelector(".aboutcoordinates").textContent = getRect(about).y;
+  let coordinates = getRect(about).y;
+
+  if (coordinates <= 179 && coordinates >= -625) {
+    visible.home = false; //document.querySelector(".aboutvisible").textContent = "true";
+    visible.about = true; //document.querySelector(".home").textContent = "false";
+    visible.contact = false; //document.querySelector(".contact").textContent = "false";
+  } else if (coordinates <= -625) {
+    visible.contact = true; //document.querySelector(".contact").textContent = "true";
+    visible.about = false; //document.querySelector(".aboutvisible").textContent = "false";
+    visible.home = false; //document.querySelector(".home").textContent = "false";
+  } else {
+    visible.about = false; //document.querySelector(".aboutvisible").textContent = "false";
+    visible.home = true; //document.querySelector(".home").textContent = "true";
+  }
+
+  document.querySelector(".home").textContent = visible.home;
+  document.querySelector(".contact").textContent = visible.contact;
+  document.querySelector(".aboutvisible").textContent = visible.about;
+
+  //changing active class based on visible id
+  if (visible.about) {
+    document.querySelector("#aboutlink").classList.add("active");
+    document.querySelector("#homelink").classList.remove("active");
+    document.querySelector("#contactlink").classList.remove("active");
+  } else if (visible.contact) {
+    document.querySelector("#contactlink").classList.add("active");
+    document.querySelector("#homelink").classList.remove("active");
+    document.querySelector("#aboutlink").classList.remove("active");
+  } else {
+    document.querySelector("#homelink").classList.add("active");
+    document.querySelector("#contactlink").classList.remove("active");
+    document.querySelector("#aboutlink").classList.remove("active");
+  }
+});
