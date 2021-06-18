@@ -10,3 +10,20 @@
 .nav-item {
   text-align: right;
 }
+
+#navbar {
+  transition: 0.4s;
+}
+
+.feature-cards {
+  height: 100vh;
+}
+
+.card {
+  margin-top: 3rem;
+  border: none;
+}
+
+#about {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0a0809+0,0a0e0a+49,6e7774+49,aebcbf+100 */
+}
