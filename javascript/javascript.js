@@ -11,7 +11,7 @@ function scrollfunction() {
     document.getElementById("navbar").classList.remove("bg-dark");
   }
 }
-
+/*
 function isInViewport(el) {
   const rect = el.getBoundingClientRect();
   return (
@@ -21,7 +21,9 @@ function isInViewport(el) {
     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
   );
 }
+*/
 
+/////////////////////////
 function getRect(el) {
   return el.getBoundingClientRect();
 }
@@ -29,6 +31,8 @@ function getRect(el) {
 const home = document.querySelector("#home");
 const about = document.querySelector("#about");
 const contact = document.querySelector("#contact");
+const featureCards = document.querySelector(".feature-cards");
+
 let visible = {
   home: true,
   about: false,
@@ -37,6 +41,8 @@ let visible = {
 
 document.addEventListener("scroll", function () {
   document.querySelector(".aboutcoordinates").textContent = getRect(about).y;
+  document.querySelector(".cardstest").textContent = getRect(featureCards).y;
+
   let coordinates = getRect(about).y;
 
   if (coordinates <= 179 && coordinates >= -625) {
@@ -50,13 +56,14 @@ document.addEventListener("scroll", function () {
   } else {
     visible.about = false; //document.querySelector(".aboutvisible").textContent = "false";
     visible.home = true; //document.querySelector(".home").textContent = "true";
+    visible.contact = false;
   }
-
+  //testing
   document.querySelector(".home").textContent = visible.home;
   document.querySelector(".contact").textContent = visible.contact;
   document.querySelector(".aboutvisible").textContent = visible.about;
 
-  //changing active class based on visible id
+  //changing active class dynamically based on visible id
   if (visible.about) {
     document.querySelector("#aboutlink").classList.add("active");
     document.querySelector("#homelink").classList.remove("active");
