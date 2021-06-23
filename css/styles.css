@@ -1,38 +1,38 @@
 html {
-  scroll-behavior: smooth;
-}
+  scroll-behavior: smooth; }
+
+body {
+  background-color: #e2e2e2; }
 
 .jumbotron {
-  background-color: grey;
-  height: 100vh;
-}
+  transform: skewY(-6deg);
+  transform-origin: top left; }
+
+.header-text {
+  transform: skewY(6deg);
+  transform-origin: top left; }
 
 .row-hero {
-  height: 100vh;
-}
+  height: 75vh; }
+
+#home {
+  background-color: #4f5d75; }
 
 .nav-item {
-  text-align: right;
-}
+  text-align: right; }
 
 #navbar {
-  transition: 0.4s;
-}
+  transition: 0.4s; }
 
 .card {
   margin-top: 3rem;
-  border: none;
-}
+  border: none; }
 
 #contact {
   height: 100vh;
-  background-color: coral;
-}
-
-
+  background-color: coral; }
 
 .test {
   position: fixed;
   bottom: 0;
-  right: 0;
-}
+  right: 0; }

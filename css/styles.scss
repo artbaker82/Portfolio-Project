@@ -1,0 +1,52 @@
+$color-hero: #4f5d75;
+$color-section-about: #e2e2e2;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $color-section-about;
+}
+
+.jumbotron {
+  transform: skewY(-6deg);
+  transform-origin: top left;
+}
+
+.header-text {
+  transform: skewY(+6deg);
+  transform-origin: top left;
+}
+
+.row-hero {
+  height: 75vh;
+}
+
+#home {
+  background-color: $color-hero;
+}
+
+.nav-item {
+  text-align: right;
+}
+
+#navbar {
+  transition: 0.4s;
+}
+
+.card {
+  margin-top: 3rem;
+  border: none;
+}
+
+#contact {
+  height: 100vh;
+  background-color: coral;
+}
+
+.test {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
