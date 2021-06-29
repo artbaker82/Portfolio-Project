@@ -1,5 +1,11 @@
 $color-hero: #4f5d75;
 $color-section-about: #e2e2e2;
+$font-color-secondary: #c2c2c2;
+$accent-primary: #e9795d;
+$accent-secondary: #2a9d8f;
+
+$main-font: "Roboto Slab", serif;
+$secondary-font: "Poppins", sans-serif;
 
 html {
   scroll-behavior: smooth;
@@ -10,21 +16,56 @@ body {
 }
 
 .jumbotron {
-  transform: skewY(-6deg);
-  transform-origin: top left;
-}
-
-.header-text {
-  transform: skewY(+6deg);
+  transform: skewY(-15deg);
   transform-origin: top left;
 }
 
 .row-hero {
-  height: 75vh;
+  height: 100vh;
+}
+
+.row {
+  transform: skewY(+15deg);
+  transform-origin: top left;
+}
+
+.phone {
+  position: absolute;
+  top: 25rem;
 }
 
 #home {
+  font-family: $main-font;
   background-color: $color-hero;
+}
+
+.header-text {
+  margin-bottom: 7em;
+}
+.header-text {
+  h1 {
+    color: #ffffff;
+    font-size: 7rem;
+    font-weight: bold;
+    letter-spacing: 0.07em;
+  }
+}
+
+.header-text {
+  h2 {
+    color: $font-color-secondary;
+  }
+  h3 {
+    color: $font-color-secondary;
+  }
+}
+
+.header-btn {
+  border-radius: 3em;
+}
+
+#about {
+  height: 100vh;
 }
 
 .nav-item {
@@ -33,6 +74,15 @@ body {
 
 #navbar {
   transition: 0.4s;
+  font-family: $main-font;
+}
+
+.btn-success {
+  background-color: $accent-secondary;
+}
+
+.btn-success:hover {
+  background-color: #1c685f;
 }
 
 .card {

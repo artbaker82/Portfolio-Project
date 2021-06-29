@@ -5,24 +5,57 @@ body {
   background-color: #e2e2e2; }
 
 .jumbotron {
-  transform: skewY(-6deg);
-  transform-origin: top left; }
-
-.header-text {
-  transform: skewY(6deg);
+  transform: skewY(-15deg);
   transform-origin: top left; }
 
 .row-hero {
-  height: 75vh; }
+  height: 100vh; }
+
+.row {
+  transform: skewY(15deg);
+  transform-origin: top left; }
+
+.phone {
+  position: absolute;
+  top: 25rem; }
 
 #home {
+  font-family: "Roboto Slab", serif;
   background-color: #4f5d75; }
+
+.header-text {
+  margin-bottom: 7em; }
+
+.header-text h1 {
+  color: #ffffff;
+  font-size: 7rem;
+  font-weight: bold;
+  letter-spacing: 0.07em; }
+
+.header-text h2 {
+  color: #c2c2c2; }
+
+.header-text h3 {
+  color: #c2c2c2; }
+
+.header-btn {
+  border-radius: 3em; }
+
+#about {
+  height: 100vh; }
 
 .nav-item {
   text-align: right; }
 
 #navbar {
-  transition: 0.4s; }
+  transition: 0.4s;
+  font-family: "Roboto Slab", serif; }
+
+.btn-success {
+  background-color: #2a9d8f; }
+
+.btn-success:hover {
+  background-color: #1c685f; }
 
 .card {
   margin-top: 3rem;

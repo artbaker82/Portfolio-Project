@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="463" height="896" viewBox="0 0 463 896">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7d8faf;
+      }
+
+      .cls-2 {
+        fill: #3b3f47;
+      }
+
+      .cls-3 {
+        fill: #2a9d8f;
+      }
+
+      .cls-4 {
+        fill: #e9795d;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #899dbf;
+      }
+
+      .cls-7 {
+        font-size: 10px;
+        font-family: Poppins-Regular, Poppins;
+      }
+    </style>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-2347 -936)">
+    <g id="phone" transform="translate(1491 302)">
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="463" height="896" rx="58" transform="translate(856 634)"/>
+      <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-1" width="427" height="855" rx="48" transform="translate(874 655)"/>
+      <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-2" width="427" height="662" rx="48" transform="translate(874 848)"/>
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="265" height="43" rx="21.5" transform="translate(955 635)"/>
+    </g>
+    <path id="Icon_awesome-battery-half" data-name="Icon awesome-battery-half" d="M26.172,9.829v3.079h1.54v3.079h-1.54v3.079H3.079V9.829H26.172m.77-3.079H2.309A2.309,2.309,0,0,0,0,9.059V19.836a2.309,2.309,0,0,0,2.309,2.309H26.941a2.309,2.309,0,0,0,2.309-2.309v-.77h.385a1.155,1.155,0,0,0,1.155-1.155V10.984a1.155,1.155,0,0,0-1.155-1.155h-.385v-.77A2.309,2.309,0,0,0,26.941,6.75ZM15.4,11.369H4.619v6.158H15.4Z" transform="translate(2711.8 955)"/>
+    <path id="Icon_awesome-signal" data-name="Icon awesome-signal" d="M7.366,8.517H5.946a.473.473,0,0,0-.473.473v5.678a.473.473,0,0,0,.473.473h1.42a.473.473,0,0,0,.473-.473V8.99A.473.473,0,0,0,7.366,8.517ZM3.58,11.356H2.161a.473.473,0,0,0-.473.473v2.839a.473.473,0,0,0,.473.473H3.58a.473.473,0,0,0,.473-.473V11.829A.473.473,0,0,0,3.58,11.356Zm7.571-5.678H9.731a.473.473,0,0,0-.473.473v8.517a.473.473,0,0,0,.473.473h1.42a.473.473,0,0,0,.473-.473V6.151A.473.473,0,0,0,11.151,5.678Zm3.785-2.839h-1.42a.473.473,0,0,0-.473.473V14.668a.473.473,0,0,0,.473.473h1.42a.473.473,0,0,0,.473-.473V3.312A.473.473,0,0,0,14.936,2.839ZM18.722,0H17.3a.473.473,0,0,0-.473.473v14.2a.473.473,0,0,0,.473.473h1.42a.473.473,0,0,0,.473-.473V.473A.473.473,0,0,0,18.722,0Z" transform="translate(2743.313 961.75)"/>
+    <path id="Path_1" data-name="Path 1" class="cls-2" d="M0,0H427V41H0Z" transform="translate(2365 1150.212)"/>
+    <path id="Path_2" data-name="Path 2" class="cls-3" d="M37,0A37,37,0,1,1,0,37,37,37,0,0,1,37,0Z" transform="translate(2402 1043)"/>
+    <path id="Path_3" data-name="Path 3" class="cls-4" d="M37,0A37,37,0,1,1,0,37,37,37,0,0,1,37,0Z" transform="translate(2539 1043)"/>
+    <path id="Path_4" data-name="Path 4" class="cls-5" d="M37,0A37,37,0,1,1,0,37,37,37,0,0,1,37,0Z" transform="translate(2676 1043)"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-6" width="264" height="31" rx="9" transform="translate(2448 993)"/>
+    <text id="Welcome_randomUser42" data-name="Welcome, randomUser42" class="cls-7" transform="translate(2580 1013)"><tspan x="-63.165" y="0">Welcome, randomUser42</tspan></text>
+    <path id="Icon_ionic-ios-add" data-name="Icon ionic-ios-add" d="M44.395,25.5H30.208V11.317a2.352,2.352,0,1,0-4.7,0V25.5H11.317a2.352,2.352,0,0,0,0,4.7H25.5V44.395a2.352,2.352,0,1,0,4.7,0V30.208H44.395a2.352,2.352,0,1,0,0-4.7Z" transform="translate(2411.144 1052.144)"/>
+    <path id="Icon_awesome-list-ul" data-name="Icon awesome-list-ul" d="M3.375,3.375A3.375,3.375,0,1,0,6.75,6.75,3.375,3.375,0,0,0,3.375,3.375Zm0,11.25A3.375,3.375,0,1,0,6.75,18a3.375,3.375,0,0,0-3.375-3.375Zm0,11.25A3.375,3.375,0,1,0,6.75,29.25a3.375,3.375,0,0,0-3.375-3.375ZM34.875,27h-22.5a1.125,1.125,0,0,0-1.125,1.125v2.25A1.125,1.125,0,0,0,12.375,31.5h22.5A1.125,1.125,0,0,0,36,30.375v-2.25A1.125,1.125,0,0,0,34.875,27Zm0-22.5h-22.5A1.125,1.125,0,0,0,11.25,5.625v2.25A1.125,1.125,0,0,0,12.375,9h22.5A1.125,1.125,0,0,0,36,7.875V5.625A1.125,1.125,0,0,0,34.875,4.5Zm0,11.25h-22.5a1.125,1.125,0,0,0-1.125,1.125v2.25a1.125,1.125,0,0,0,1.125,1.125h22.5A1.125,1.125,0,0,0,36,19.125v-2.25A1.125,1.125,0,0,0,34.875,15.75Z" transform="translate(2557 1062.625)"/>
+    <path id="Icon_awesome-chart-bar" data-name="Icon awesome-chart-bar" d="M23.4,22.5h2.7a.968.968,0,0,0,.9-.9V12.15a.968.968,0,0,0-.9-.9H23.4a.968.968,0,0,0-.9.9V21.6a.968.968,0,0,0,.9.9Zm6.75,0h2.7a.968.968,0,0,0,.9-.9V5.4a.968.968,0,0,0-.9-.9h-2.7a.968.968,0,0,0-.9.9V21.6a.968.968,0,0,0,.9.9ZM9.9,22.5h2.7a.968.968,0,0,0,.9-.9V16.65a.968.968,0,0,0-.9-.9H9.9a.968.968,0,0,0-.9.9V21.6a.968.968,0,0,0,.9.9Zm6.75,0h2.7a.968.968,0,0,0,.9-.9V7.65a.968.968,0,0,0-.9-.9h-2.7a.968.968,0,0,0-.9.9V21.6A.968.968,0,0,0,16.65,22.5ZM34.875,27H4.5V5.625A1.125,1.125,0,0,0,3.375,4.5H1.125A1.125,1.125,0,0,0,0,5.625V29.25A2.25,2.25,0,0,0,2.25,31.5H34.875A1.125,1.125,0,0,0,36,30.375v-2.25A1.125,1.125,0,0,0,34.875,27Z" transform="translate(2696 1063.5)"/>
+    <text id="New_Session" data-name="New Session" class="cls-7" transform="translate(2439 1135)"><tspan x="-30.935" y="0">New Session</tspan></text>
+    <text id="View_Previous_Sessions" data-name="View Previous Sessions" class="cls-7" transform="translate(2576 1135)"><tspan x="-56.88" y="0">View Previous Sessions</tspan></text>
+    <text id="View_Progress" data-name="View Progress" class="cls-7" transform="translate(2714 1135)"><tspan x="-34.67" y="0">View Progress</tspan></text>
+  </g>
+</svg>
