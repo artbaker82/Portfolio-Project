@@ -17,20 +17,26 @@ body {
 
 .phone {
   position: absolute;
-  top: 25rem; }
+  top: 33rem; }
+
+.phone img {
+  height: auto;
+  width: 100%;
+  box-shadow: 5px 7px 13px;
+  border-radius: 2.3rem; }
 
 #home {
   font-family: "Roboto Slab", serif;
-  background-color: #4f5d75; }
+  background-image: linear-gradient(#4f5d75, #282f3b); }
 
 .header-text {
-  margin-bottom: 7em; }
+  margin-bottom: 7rem; }
 
 .header-text h1 {
   color: #ffffff;
   font-size: 7rem;
   font-weight: bold;
-  letter-spacing: 0.07em; }
+  letter-spacing: 0.06rem; }
 
 .header-text h2 {
   color: #c2c2c2; }
@@ -39,7 +45,7 @@ body {
   color: #c2c2c2; }
 
 .header-btn {
-  border-radius: 3em; }
+  border-radius: 3rem; }
 
 #about {
   height: 100vh; }
