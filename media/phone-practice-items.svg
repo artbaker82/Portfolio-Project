@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="463" height="896" viewBox="0 0 463 896">
+  <g id="phone-practice-items" transform="translate(-2347 -2710)">
+    <g id="phone" transform="translate(1491 2076)">
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="463" height="896" rx="58" transform="translate(856 634)"/>
+      <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(874 655)" fill="#7d8faf" stroke="#7d8faf" stroke-width="1">
+        <rect width="427" height="855" rx="48" stroke="none"/>
+        <rect x="0.5" y="0.5" width="426" height="854" rx="47.5" fill="none"/>
+      </g>
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="265" height="43" rx="21.5" transform="translate(955 635)"/>
+      <text id="Create_new_session" data-name="Create new session" transform="translate(1088 755)" font-size="19" font-family="Poppins-Regular, Poppins"><tspan x="-92.634" y="0">Create new session</tspan></text>
+    </g>
+    <path id="Icon_awesome-battery-half" data-name="Icon awesome-battery-half" d="M26.172,9.829v3.079h1.54v3.079h-1.54v3.079H3.079V9.829H26.172m.77-3.079H2.309A2.309,2.309,0,0,0,0,9.059V19.836a2.309,2.309,0,0,0,2.309,2.309H26.941a2.309,2.309,0,0,0,2.309-2.309v-.77h.385a1.155,1.155,0,0,0,1.155-1.155V10.984a1.155,1.155,0,0,0-1.155-1.155h-.385v-.77A2.309,2.309,0,0,0,26.941,6.75ZM15.4,11.369H4.619v6.158H15.4Z" transform="translate(2711.8 2724)"/>
+    <path id="Icon_awesome-signal" data-name="Icon awesome-signal" d="M7.366,8.517H5.946a.473.473,0,0,0-.473.473v5.678a.473.473,0,0,0,.473.473h1.42a.473.473,0,0,0,.473-.473V8.99A.473.473,0,0,0,7.366,8.517ZM3.58,11.356H2.161a.473.473,0,0,0-.473.473v2.839a.473.473,0,0,0,.473.473H3.58a.473.473,0,0,0,.473-.473V11.829A.473.473,0,0,0,3.58,11.356Zm7.571-5.678H9.731a.473.473,0,0,0-.473.473v8.517a.473.473,0,0,0,.473.473h1.42a.473.473,0,0,0,.473-.473V6.151A.473.473,0,0,0,11.151,5.678Zm3.785-2.839h-1.42a.473.473,0,0,0-.473.473V14.668a.473.473,0,0,0,.473.473h1.42a.473.473,0,0,0,.473-.473V3.312A.473.473,0,0,0,14.936,2.839ZM18.722,0H17.3a.473.473,0,0,0-.473.473v14.2a.473.473,0,0,0,.473.473h1.42a.473.473,0,0,0,.473-.473V.473A.473.473,0,0,0,18.722,0Z" transform="translate(2743.313 2730.75)"/>
+    <path id="Path_1" data-name="Path 1" d="M427,0h0Z" transform="translate(2365 2960.211)" fill="#3b3f47"/>
+    <text id="Add_practice_item_s_you_have_already_created_or_create_a_new_one." data-name="Add practice item&apos;s you have already created,
+or create a new one." transform="translate(2576 2862)" font-size="11" font-family="Poppins-Regular, Poppins"><tspan x="-126.731" y="0">Add practice item&apos;s you have already created,</tspan><tspan x="-56.139" y="22">or create a new one.</tspan></text>
+    <text id="Previous_items" data-name="Previous items" transform="translate(2395 3027)" font-size="15" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Previous items</tspan></text>
+    <line id="Line_2" data-name="Line 2" x2="427" transform="translate(2365.5 3050.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Group_3" data-name="Group 3">
+      <g id="Group_2" data-name="Group 2">
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="12" cy="12" r="12" transform="translate(2395 3096)" fill="#2a9d8f"/>
+        <g id="Rectangle_13" data-name="Rectangle 13" transform="translate(2431 3069)" fill="#90a4c8" stroke="#707070" stroke-width="1">
+          <rect width="293" height="78" rx="21" stroke="none"/>
+          <rect x="0.5" y="0.5" width="292" height="77" rx="20.5" fill="none"/>
+        </g>
+      </g>
+      <path id="Icon_ionic-ios-add" data-name="Icon ionic-ios-add" d="M19.062,13.678H15.019V9.635a.67.67,0,0,0-1.341,0v4.043H9.635a.67.67,0,0,0,0,1.341h4.043v4.043a.67.67,0,0,0,1.341,0V15.019h4.043a.67.67,0,1,0,0-1.341Z" transform="translate(2392.651 3093.651)" stroke="#000" stroke-width="2"/>
+      <text id="Samba_em_Preludio_-_Baden_Powell" data-name="Samba em Preludio - Baden Powell" transform="translate(2544 3092)" font-size="11" font-family="Poppins-Regular, Poppins"><tspan x="-96.674" y="0">Samba em Preludio - Baden Powell</tspan></text>
+      <text id="Time_practiced-_0:59" data-name="Time practiced- 0:59" transform="translate(2484 3109)" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-36.631" y="0">Time practiced- 0:59</tspan></text>
+      <text id="Familiarity:_Just_starting" data-name="Familiarity: Just starting" transform="translate(2488 3124)" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-41.419" y="0">Familiarity: Just starting</tspan></text>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(0 98)">
+      <g id="Group_2-2" data-name="Group 2">
+        <circle id="Ellipse_2-2" data-name="Ellipse 2" cx="12" cy="12" r="12" transform="translate(2395 3096)" fill="#2a9d8f"/>
+        <g id="Rectangle_13-2" data-name="Rectangle 13" transform="translate(2431 3069)" fill="#90a4c8" stroke="#707070" stroke-width="1">
+          <rect width="293" height="78" rx="21" stroke="none"/>
+          <rect x="0.5" y="0.5" width="292" height="77" rx="20.5" fill="none"/>
+        </g>
+      </g>
+      <path id="Icon_ionic-ios-add-2" data-name="Icon ionic-ios-add" d="M19.062,13.678H15.019V9.635a.67.67,0,0,0-1.341,0v4.043H9.635a.67.67,0,0,0,0,1.341h4.043v4.043a.67.67,0,0,0,1.341,0V15.019h4.043a.67.67,0,1,0,0-1.341Z" transform="translate(2392.651 3093.651)" stroke="#000" stroke-width="2"/>
+      <text id="Samba_em_Preludio_-_Baden_Powell-2" data-name="Samba em Preludio - Baden Powell" transform="translate(2544 3092)" font-size="11" font-family="Poppins-Regular, Poppins"><tspan x="-96.674" y="0">Samba em Preludio - Baden Powell</tspan></text>
+      <text id="Time_practiced-_0:59-2" data-name="Time practiced- 0:59" transform="translate(2484 3109)" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-36.631" y="0">Time practiced- 0:59</tspan></text>
+      <text id="Familiarity:_Just_starting-2" data-name="Familiarity: Just starting" transform="translate(2488 3124)" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-41.419" y="0">Familiarity: Just starting</tspan></text>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(0 196)">
+      <g id="Group_2-3" data-name="Group 2">
+        <circle id="Ellipse_2-3" data-name="Ellipse 2" cx="12" cy="12" r="12" transform="translate(2395 3096)" fill="#2a9d8f"/>
+        <g id="Rectangle_13-3" data-name="Rectangle 13" transform="translate(2431 3069)" fill="#90a4c8" stroke="#707070" stroke-width="1">
+          <rect width="293" height="78" rx="21" stroke="none"/>
+          <rect x="0.5" y="0.5" width="292" height="77" rx="20.5" fill="none"/>
+        </g>
+      </g>
+      <path id="Icon_ionic-ios-add-3" data-name="Icon ionic-ios-add" d="M19.062,13.678H15.019V9.635a.67.67,0,0,0-1.341,0v4.043H9.635a.67.67,0,0,0,0,1.341h4.043v4.043a.67.67,0,0,0,1.341,0V15.019h4.043a.67.67,0,1,0,0-1.341Z" transform="translate(2392.651 3093.651)" stroke="#000" stroke-width="2"/>
+      <text id="Samba_em_Preludio_-_Baden_Powell-3" data-name="Samba em Preludio - Baden Powell" transform="translate(2544 3092)" font-size="11" font-family="Poppins-Regular, Poppins"><tspan x="-96.674" y="0">Samba em Preludio - Baden Powell</tspan></text>
+      <text id="Time_practiced-_0:59-3" data-name="Time practiced- 0:59" transform="translate(2484 3109)" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-36.631" y="0">Time practiced- 0:59</tspan></text>
+      <text id="Familiarity:_Just_starting-3" data-name="Familiarity: Just starting" transform="translate(2488 3124)" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-41.419" y="0">Familiarity: Just starting</tspan></text>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(0 294)">
+      <g id="Group_2-4" data-name="Group 2">
+        <circle id="Ellipse_2-4" data-name="Ellipse 2" cx="12" cy="12" r="12" transform="translate(2395 3096)" fill="#2a9d8f"/>
+        <g id="Rectangle_13-4" data-name="Rectangle 13" transform="translate(2431 3069)" fill="#90a4c8" stroke="#707070" stroke-width="1">
+          <rect width="293" height="78" rx="21" stroke="none"/>
+          <rect x="0.5" y="0.5" width="292" height="77" rx="20.5" fill="none"/>
+        </g>
+      </g>
+      <path id="Icon_ionic-ios-add-4" data-name="Icon ionic-ios-add" d="M19.062,13.678H15.019V9.635a.67.67,0,0,0-1.341,0v4.043H9.635a.67.67,0,0,0,0,1.341h4.043v4.043a.67.67,0,0,0,1.341,0V15.019h4.043a.67.67,0,1,0,0-1.341Z" transform="translate(2392.651 3093.651)" stroke="#000" stroke-width="2"/>
+      <text id="Samba_em_Preludio_-_Baden_Powell-4" data-name="Samba em Preludio - Baden Powell" transform="translate(2544 3092)" font-size="11" font-family="Poppins-Regular, Poppins"><tspan x="-96.674" y="0">Samba em Preludio - Baden Powell</tspan></text>
+      <text id="Time_practiced-_0:59-4" data-name="Time practiced- 0:59" transform="translate(2484 3109)" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-36.631" y="0">Time practiced- 0:59</tspan></text>
+      <text id="Familiarity:_Just_starting-4" data-name="Familiarity: Just starting" transform="translate(2488 3124)" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-41.419" y="0">Familiarity: Just starting</tspan></text>
+    </g>
+    <g id="Group_7" data-name="Group 7" transform="translate(0 392)">
+      <g id="Group_2-5" data-name="Group 2">
+        <circle id="Ellipse_2-5" data-name="Ellipse 2" cx="12" cy="12" r="12" transform="translate(2395 3096)" fill="#2a9d8f"/>
+        <g id="Rectangle_13-5" data-name="Rectangle 13" transform="translate(2431 3069)" fill="#90a4c8" stroke="#707070" stroke-width="1">
+          <rect width="293" height="78" rx="21" stroke="none"/>
+          <rect x="0.5" y="0.5" width="292" height="77" rx="20.5" fill="none"/>
+        </g>
+      </g>
+      <path id="Icon_ionic-ios-add-5" data-name="Icon ionic-ios-add" d="M19.062,13.678H15.019V9.635a.67.67,0,0,0-1.341,0v4.043H9.635a.67.67,0,0,0,0,1.341h4.043v4.043a.67.67,0,0,0,1.341,0V15.019h4.043a.67.67,0,1,0,0-1.341Z" transform="translate(2392.651 3093.651)" stroke="#000" stroke-width="2"/>
+      <text id="Samba_em_Preludio_-_Baden_Powell-5" data-name="Samba em Preludio - Baden Powell" transform="translate(2544 3092)" font-size="11" font-family="Poppins-Regular, Poppins"><tspan x="-96.674" y="0">Samba em Preludio - Baden Powell</tspan></text>
+      <text id="Time_practiced-_0:59-5" data-name="Time practiced- 0:59" transform="translate(2484 3109)" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-36.631" y="0">Time practiced- 0:59</tspan></text>
+      <text id="Familiarity:_Just_starting-5" data-name="Familiarity: Just starting" transform="translate(2488 3124)" font-size="7" font-family="Poppins-Regular, Poppins"><tspan x="-41.419" y="0">Familiarity: Just starting</tspan></text>
+    </g>
+    <g id="Component_5_1" data-name="Component 5 – 1" transform="translate(2665.67 3009.875)">
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="46.13" height="20.625" rx="10.312" fill="#e9795d"/>
+      <path id="Icon_ionic-ios-musical-notes" data-name="Icon ionic-ios-musical-notes" d="M17.659,3.382,10.41,4.788a.312.312,0,0,0-.285.281v8.441a.97.97,0,0,1-.084.411.937.937,0,0,1-.566.446c-.116.039-.274.074-.461.116-.847.19-2.264.513-2.264,1.821a1.609,1.609,0,0,0,1.466,1.67,1.714,1.714,0,0,0,.25.025h0a4.339,4.339,0,0,0,1.8-.464,1.894,1.894,0,0,0,.847-1.68V8.385a.279.279,0,0,1,.225-.274l5.344-1.079a.281.281,0,0,1,.337.274v4.6a1.008,1.008,0,0,1-.088.471.934.934,0,0,1-.57.446c-.116.039-.309.074-.5.116-.847.19-2.264.51-2.264,1.818a1.612,1.612,0,0,0,1.47,1.7,2.905,2.905,0,0,0,.682-.032,4.031,4.031,0,0,0,1.283-.457A1.853,1.853,0,0,0,18,14.273V3.653A.279.279,0,0,0,17.659,3.382Z" transform="translate(18.127 -0.375)"/>
+      <path id="Icon_ionic-ios-add-6" data-name="Icon ionic-ios-add" d="M19.515,13.89H15.291V9.665a.7.7,0,1,0-1.4,0V13.89H9.665a.7.7,0,0,0,0,1.4H13.89v4.224a.7.7,0,0,0,1.4,0V15.291h4.224a.7.7,0,0,0,0-1.4Z" transform="translate(1.035 -4.278)" stroke="#000" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
