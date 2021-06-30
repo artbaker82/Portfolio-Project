@@ -49,11 +49,9 @@ body {
   border-radius: 3rem; }
 
 #about {
-  height: 35vh;
   font-family: "Roboto Slab", serif;
   color: #4f5d75;
-  transform: translateY(-5rem);
-  margin-left: 4rem; }
+  transform: translateY(-5rem); }
 
 #about h2 {
   font-size: 2.5rem; }
@@ -67,10 +65,12 @@ body {
   background-color: #e2e2e2;
   height: 10rem;
   font-family: "Roboto Slab", serif;
-  color: #4f5d75; }
+  color: #4f5d75;
+  text-align: center; }
 
 #social .row {
-  width: 50vh; }
+  margin: 0 auto;
+  width: 50vw; }
 
 #social a {
   color: black; }
@@ -168,6 +168,8 @@ body {
   right: 0; }
 
 @media (max-width: 767px) {
+  #about {
+    margin-top: 6rem; }
   .phone img {
     height: auto;
     width: 100%;
@@ -177,10 +179,13 @@ body {
     position: static; }
   header {
     height: 95vh; }
+  #features {
+    height: 120vh; }
   #features .phone-demo {
     position: static;
     text-align: center; }
-  #social {
-    position: relative; }
-  #social .row {
-    position: absolute; } }
+  #features .features-container {
+    position: static;
+    margin: 7rem auto; }
+  .jumbotron {
+    padding: 2rem 2rem; } }

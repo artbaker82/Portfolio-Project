@@ -78,11 +78,9 @@ body {
 }
 
 #about {
-  height: 35vh;
   font-family: $main-font;
   color: $color-primary;
   transform: translateY(-5rem);
-  margin-left: 4rem;
 }
 #about {
   h2 {
@@ -100,11 +98,13 @@ body {
   height: 10rem;
   font-family: $main-font;
   color: $color-primary;
+  text-align: center;
 }
 
 #social {
   .row {
-    width: 50vh;
+    margin: 0 auto;
+    width: 50vw;
   }
 }
 
@@ -229,6 +229,9 @@ body {
 
 //small/xs screens
 @media (max-width: 767px) {
+  #about {
+    margin-top: 6rem;
+  }
   .phone {
     img {
       height: auto;
@@ -246,16 +249,18 @@ body {
   }
 
   #features {
+    height: 120vh;
     .phone-demo {
       position: static;
       text-align: center;
     }
+    .features-container {
+      position: static;
+      margin: 7rem auto;
+    }
   }
 
-  #social {
-    position: relative;
-    .row {
-      position: absolute;
-    }
+  .jumbotron {
+    padding: 2rem 2rem;
   }
 }
