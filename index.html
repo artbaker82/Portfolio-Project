@@ -17,7 +17,7 @@
   </head>
   <body>
     <header id="home" class="jumbotron jumbotron-fluid">
-      <div class="container">
+      <div class="container pl-0">
         <div class="row row-hero">
           <div class="col-12 col-md-5 col-lg-7 mt-3 header-text">
             <h1>Iterative</h1>
@@ -25,9 +25,14 @@
           </div>
 
           <div
-            class="col-12 col-md-6 col-lg-5 align-self-center header-text offset-md-1 offset-lg-0"
+            class="
+              col-12 col-md-6 col-lg-5
+              align-self-md-end align-self-lg-center
+              header-text
+              offset-md-1 offset-lg-0
+            "
           >
-            <div class="pl-lg-5 pt-lg-5">
+            <div class="pl-lg-5 pt-lg-5 text-nowrap">
               <h3 class="mb-5">Unlock the art of practice</h3>
 
               <a href="#" class="btn btn-warning btn-outline header-btn">Learn More</a>
@@ -35,16 +40,17 @@
           </div>
         </div>
 
-        <div class="row phone">
-          <div class="col-lg-7">
+        <div class="row phone mt-5">
+          <div class="col-md-7 col-6">
             <img src="/media/phoneTest.svg" alt="phone sample" />
           </div>
         </div>
       </div>
     </header>
 
-    <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
       <div class="container">
+        <a class="navbar-brand d-none" href="#">Iterative</a>
         <button
           class="navbar-toggler ml-auto"
           type="button"
@@ -75,14 +81,49 @@
     </nav>
 
     <main>
-      <div id="about"></div>
-
-      <div id="contact">
+      <div id="about">
         <div class="container">
-          <div class="row">
-            <div class="col"><h4>Contact Us</h4></div>
+          <div class="row row-statement justify-content-end">
+            <div class="col col-7 text-center">
+              <h2>What is practice?</h2>
+              <div class="col about-statement mt-4">
+                <p>
+                  Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis leo
+                  vel tellus interdum, ac fermentum libero viverra. Maecenas sed mollis mi. Class
+                  aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                  himenaeos. Vivamus imperdiet nisi nec consequat commodo.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+
+      <div id="social">
+        <div class="container">
+          <div class="row">
+            <div class="col text-nowrap mt-5 mb-3">
+              <h4>Visit us on social media!</h4>
+            </div>
+            <div class="col-4">
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-4">
+              <a href=""><i class="fab fa-facebook-square"></i></a>
+            </div>
+            <div class="col-4">
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="features">
+        <div class="container"></div>
+      </div>
+
+      <div id="fill">
+        <div class="container"></div>
       </div>
 
       <div class="test">
@@ -100,9 +141,9 @@
       </div>
     </main>
 
-    <script src="javascript/javascript.js"></script>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="javascript/scripts.js"></script>
   </body>
 </html>

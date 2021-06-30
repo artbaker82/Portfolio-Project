@@ -1,4 +1,6 @@
 $color-hero: linear-gradient(#4f5d75, #282f3b);
+$color-primary: #4f5d75;
+$color-primary-lighter: #7099a5;
 $color-section-about: #e2e2e2;
 $font-color-secondary: #c2c2c2;
 $accent-primary: #e9795d;
@@ -15,6 +17,7 @@ html {
 
 body {
   background-color: $color-section-about;
+  position: relative;
 }
 
 .jumbotron {
@@ -23,17 +26,16 @@ body {
 }
 
 .row-hero {
-  height: 100vh;
-}
-
-.row {
   transform: skewY(+15deg);
   transform-origin: top left;
+  height: 100vh;
 }
 
 .phone {
   position: absolute;
   top: 33rem;
+  transform: skewY(+15deg);
+  transform-origin: top left;
 }
 
 .phone {
@@ -76,7 +78,56 @@ body {
 }
 
 #about {
-  height: 100vh;
+  height: 35vh;
+  font-family: $main-font;
+  color: $color-primary;
+  transform: translateY(-5rem);
+  margin-left: 4rem;
+}
+#about {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+.about-statement {
+  font-family: $secondary-font;
+  color: black;
+  line-height: 2.5rem;
+}
+
+#social {
+  background-color: $color-section-about;
+  height: 10rem;
+  font-family: $main-font;
+  color: $color-primary;
+}
+
+#social {
+  .row {
+    width: 50vh;
+  }
+}
+
+#social {
+  a {
+    color: black;
+  }
+
+  i {
+    font-size: 2rem;
+  }
+}
+
+#features {
+  background-image: $color-hero;
+  height: 50vh;
+  transform: skewY(7deg);
+  transform-origin: top left;
+}
+
+#fill {
+  height: 25vh;
+  background-color: #282f3b;
 }
 
 .nav-item {
@@ -86,6 +137,16 @@ body {
 #navbar {
   transition: 0.4s;
   font-family: $main-font;
+}
+
+.navbar-dark {
+  .navbar-brand {
+    color: $color-primary-lighter;
+  }
+}
+
+.bg-dark {
+  background-color: rgba(52, 58, 64, 0.9) !important;
 }
 
 .btn-success {
@@ -110,4 +171,23 @@ body {
   position: fixed;
   bottom: 0;
   right: 0;
+}
+
+//small screens
+@media (max-width: 767px) {
+  .phone {
+    img {
+      height: auto;
+      width: 100%;
+      box-shadow: 5px 7px 13px;
+      border-radius: 2rem;
+    }
+  }
+
+  .phone {
+    position: static;
+  }
+  header {
+    height: 95vh;
+  }
 }

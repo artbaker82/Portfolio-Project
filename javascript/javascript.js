@@ -80,17 +80,14 @@ document.addEventListener("scroll", function () {
 });
 
 let navToggler = document.querySelector(".navbar-toggler");
-let navIcon = document.querySelector("#navbar-icon")
-navToggler.addEventListener("click", function(){
-  if(navIcon.classList.contains("fa-caret-down")){
-    console.log("memu cino")
-    navIcon.classList.remove("fa-caret-down")
-    navIcon.classList.add("fa-caret-up")
+let navIcon = document.querySelector("#navbar-icon");
+navToggler.addEventListener("click", function () {
+  if (navIcon.classList.contains("fa-caret-down")) {
+    console.log("memu cino");
+    navIcon.classList.remove("fa-caret-down");
+    navIcon.classList.add("fa-caret-up");
   } else {
-    navIcon.classList.add("fa-caret-down")
-    navIcon.classList.remove("fa-caret-up")
+    navIcon.classList.add("fa-caret-down");
+    navIcon.classList.remove("fa-caret-up");
   }
-})
-
-
-
+});
