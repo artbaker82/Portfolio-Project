@@ -1,4 +1,5 @@
 $color-hero: linear-gradient(#4f5d75, #282f3b);
+$color-hero-reverse: linear-gradient(#282f3b, #4f5d75);
 $color-primary: #4f5d75;
 $color-primary-lighter: #7099a5;
 $color-section-about: #e2e2e2;
@@ -10,6 +11,10 @@ $main-font: "Roboto Slab", serif;
 $secondary-font: "Poppins", sans-serif;
 
 $img-shadow: 5px 7px 13px;
+
+* {
+  box-sizing: border-box;
+}
 
 html {
   scroll-behavior: smooth;
@@ -119,7 +124,7 @@ body {
 }
 
 #features {
-  background-image: $color-hero;
+  background-image: $color-hero-reverse;
   height: 100vh;
   transform: skewY(7deg);
   transform-origin: top left;
@@ -181,7 +186,7 @@ body {
 
 #fill {
   height: 25vh;
-  background-color: #282f3b;
+  background-color: $color-primary;
 }
 
 .nav-item {
@@ -211,14 +216,84 @@ body {
   background-color: #1c685f;
 }
 
-.card {
-  margin-top: 3rem;
-  border: none;
-}
+footer {
+  background-color: #2c3441;
+  font-family: $main-font;
+  color: $font-color-secondary;
 
-#contact {
-  height: 100vh;
-  background-color: coral;
+  .container {
+    padding-top: 3rem;
+  }
+
+  .brand-tag-copy {
+    h3 {
+      color: #ffffff;
+      font-size: 3rem;
+    }
+    p {
+      color: $font-color-secondary;
+    }
+
+    .copyright {
+      font-size: 0.75rem;
+    }
+
+    .media {
+      color: $font-color-secondary;
+      font-size: 2rem;
+      padding-right: 3rem;
+      margin: 2rem 0;
+    }
+  }
+
+  .links {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    h4 {
+      text-decoration: underline;
+    }
+    ul {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-70%, -40%);
+
+      list-style: none;
+      li {
+        padding-bottom: 1rem;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: $font-color-secondary;
+    }
+    a:hover {
+      color: $accent-secondary;
+    }
+  }
+
+  .subscribe {
+    h4 {
+      font-style: 0.1rem;
+      text-align: right;
+    }
+
+    form {
+      text-align: right;
+      margin-top: 3rem;
+    }
+    input {
+      text-align: center;
+      border-radius: 5px;
+      border-style: none;
+      padding: 3px 5px;
+      margin-bottom: 2rem;
+    }
+  }
 }
 
 .test {
