@@ -154,8 +154,31 @@ body {
 .btn-success {
   background-color: #2a9d8f; }
 
+.btn-outline-success {
+  border-color: #2a9d8f;
+  color: #c2c2c2; }
+
+.btn-outline-success:hover {
+  background-color: #2a9d8f; }
+
 .btn-success:hover {
   background-color: #1c685f; }
+
+.newsletter {
+  background-color: #4f5d75;
+  color: #c2c2c2;
+  font-family: "Roboto Slab", serif;
+  padding-bottom: 3rem; }
+
+.newsletter .col-8 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.newsletter input {
+  border-radius: 5px;
+  border-style: none;
+  padding: 3px 5px; }
 
 footer {
   background-color: #2c3441;
@@ -180,6 +203,9 @@ footer .brand-tag-copy .media {
   font-size: 2rem;
   padding-right: 3rem;
   margin: 2rem 0; }
+
+footer .brand-tag-copy a {
+  color: #c2c2c2; }
 
 footer .links {
   position: relative;
@@ -221,7 +247,7 @@ footer .subscribe input {
   border-radius: 5px;
   border-style: none;
   padding: 3px 5px;
-  margin-bottom: 2rem; }
+  margin-bottom: 1rem; }
 
 .test {
   position: fixed;

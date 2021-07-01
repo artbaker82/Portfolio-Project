@@ -212,8 +212,35 @@ body {
   background-color: $accent-secondary;
 }
 
+.btn-outline-success {
+  border-color: $accent-secondary;
+  color: $font-color-secondary;
+}
+
+.btn-outline-success:hover {
+  background-color: $accent-secondary;
+}
+
 .btn-success:hover {
   background-color: #1c685f;
+}
+
+.newsletter {
+  background-color: $color-primary;
+  color: $font-color-secondary;
+  font-family: $main-font;
+  padding-bottom: 3rem;
+  .col-8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input {
+    border-radius: 5px;
+    border-style: none;
+    padding: 3px 5px;
+  }
 }
 
 footer {
@@ -243,6 +270,9 @@ footer {
       font-size: 2rem;
       padding-right: 3rem;
       margin: 2rem 0;
+    }
+    a {
+      color: $font-color-secondary;
     }
   }
 
@@ -291,7 +321,7 @@ footer {
       border-radius: 5px;
       border-style: none;
       padding: 3px 5px;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
   }
 }
