@@ -326,10 +326,45 @@ footer {
   }
 }
 
-.test {
-  position: fixed;
-  bottom: 0;
-  right: 0;
+// css stylesheet for contact page
+
+body {
+  #contact {
+    background-color: $color-section-about;
+  }
+
+  .form-container {
+    margin-top: 7rem;
+    height: 100vh;
+    color: #707070;
+    font-family: $main-font;
+    position: relative;
+    .form-main-text {
+      padding-top: 4rem;
+      h2 {
+        font-size: 3rem;
+        background-color: rgba(226, 226, 226, 0.5);
+      }
+      h4 {
+        margin-top: 4rem;
+        font-size: 1rem;
+        background-color: rgba(226, 226, 226, 0.5);
+      }
+
+      .subtext {
+        padding-left: 0;
+      }
+    }
+  }
+
+  #blob1 {
+    position: absolute;
+    top: -4rem;
+    left: -4rem;
+    height: auto;
+    width: 60%;
+    opacity: 20%;
+  }
 }
 
 //small/xs screens

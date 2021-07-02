@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+    />
+    <title>Contact Form</title>
+  </head>
+  <body id="contact">
+    <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Iterative</a>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navBar"
+        >
+          <span id="navbar-icon" class="fas fa-caret-down"></span>
+        </button>
+
+        <div class="d-flex align-items-end order-last px-2">
+          <a href="#" class="btn btn-success">Download</a>
+        </div>
+
+        <div class="collapse navbar-collapse justify-content-end order-last order-md-1" id="navBar">
+          <ul class="navbar-nav">
+            <li id="homelink" class="nav-item">
+              <a class="nav-link" href="#"><i class=""></i>Home</a>
+            </li>
+            <li id="aboutlink" class="nav-item">
+              <a class="nav-link" href="#about"><i class=""></i>About</a>
+            </li>
+            <li id="contactlink" class="nav-item active">
+              <a class="nav-link" href="#contact"><i class=""></i> Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container form-container">
+        <img id="blob1" src="/media/magicpattern-blob-1625261060822.svg" alt="" />
+        <div class="row">
+          <div class="col-12 col-md-7 form-main-text">
+            <h2>Reach out to us!</h2>
+            <div class="col-8 subtext">
+              <h4>
+                Have a question, concern, or just want to say hey? We'd love to hear from you!
+              </h4>
+            </div>
+          </div>
+          <div class="col-12 col-md-5">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="emailInput" />
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Send me release updates, news, and promotional information</label
+                >
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+
+                <textarea
+                  class="form-control"
+                  name="message"
+                  id="message"
+                  cols="15"
+                  rows="5"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col col-md-4 brand-tag-copy">
+            <h3>Iterative</h3>
+            <p>refined, focused, practice</p>
+            <a href=""><i class="fab fa-instagram media"></i></a>
+            <a href=""><i class="fab fa-facebook-square media"></i></a>
+            <a href=""><i class="fab fa-twitter media"></i></a>
+            <a href="mailto:iterative@iterative.com">iterative@iterative.com</a>
+            <p class="copyright">Copyright <i class="far fa-copyright"></i> Iterative 2021</p>
+          </div>
+          <div class="col col-md-4 links">
+            <h4>More links</h4>
+
+            <ul>
+              <li><a href="">Our team</a></li>
+              <li><a href="">Product</a></li>
+              <li><a href="">Our team</a></li>
+              <li><a href="">Our team</a></li>
+              <li><a href="">Our team</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 subscribe text-lg-nowrap d-none d-md-block">
+            <h4>Subscribe to our newsletter</h4>
+            <form>
+              <input type="email" placeholder="example@iterative.com" name="email" id="email" />
+              <br />
+              <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
