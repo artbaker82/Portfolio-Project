@@ -252,6 +252,14 @@ footer .subscribe input {
 body #contact {
   background-color: #e2e2e2; }
 
+body .btn-primary {
+  background-color: #2a9d8f;
+  border: none; }
+
+body .btn-primary:hover {
+  background-color: #1c685f;
+  border: none; }
+
 body .form-container {
   margin-top: 7rem;
   height: 100vh;
@@ -274,12 +282,28 @@ body .form-container .form-main-text h4 {
 body .form-container .form-main-text .subtext {
   padding-left: 0; }
 
+body .form-check {
+  background-color: rgba(226, 226, 226, 0.5); }
+
+body .form-label {
+  background-color: rgba(226, 226, 226, 0.5); }
+
 body #blob1 {
   position: absolute;
   top: -4rem;
   left: -4rem;
   height: auto;
   width: 60%;
+  opacity: 20%; }
+
+body #blob2 {
+  transform: rotate(90deg);
+  position: absolute;
+  height: auto;
+  width: 60%;
+  z-index: 0;
+  top: 0;
+  right: 0;
   opacity: 20%; }
 
 @media (max-width: 767px) {
@@ -303,4 +327,15 @@ body #blob1 {
     position: static;
     margin: 7rem auto; }
   .jumbotron {
-    padding: 2rem 2rem; } }
+    padding: 2rem 2rem; }
+  .form-container {
+    margin-bottom: 2rem; }
+  #blob2 {
+    transform: rotate(90deg);
+    position: absolute;
+    height: auto;
+    width: 100%;
+    z-index: 0;
+    bottom: 1rem;
+    right: 0;
+    opacity: 20%; } }

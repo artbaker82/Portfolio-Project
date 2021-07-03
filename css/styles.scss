@@ -333,6 +333,16 @@ body {
     background-color: $color-section-about;
   }
 
+  .btn-primary {
+    background-color: $accent-secondary;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #1c685f;
+    border: none;
+  }
+
   .form-container {
     margin-top: 7rem;
     height: 100vh;
@@ -357,12 +367,31 @@ body {
     }
   }
 
+  .form-check {
+    background-color: rgba(226, 226, 226, 0.5);
+  }
+
+  .form-label {
+    background-color: rgba(226, 226, 226, 0.5);
+  }
+
   #blob1 {
     position: absolute;
     top: -4rem;
     left: -4rem;
     height: auto;
     width: 60%;
+    opacity: 20%;
+  }
+
+  #blob2 {
+    transform: rotate(90deg);
+    position: absolute;
+    height: auto;
+    width: 60%;
+    z-index: 0;
+    top: 0;
+    right: 0;
     opacity: 20%;
   }
 }
@@ -402,5 +431,20 @@ body {
 
   .jumbotron {
     padding: 2rem 2rem;
+  }
+
+  .form-container {
+    margin-bottom: 2rem;
+  }
+
+  #blob2 {
+    transform: rotate(90deg);
+    position: absolute;
+    height: auto;
+    width: 100%;
+    z-index: 0;
+    bottom: 1rem;
+    right: 0;
+    opacity: 20%;
   }
 }
