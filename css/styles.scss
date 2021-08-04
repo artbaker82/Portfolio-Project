@@ -396,10 +396,45 @@ body {
   }
 }
 
+//fix organization here, separate scss file for contact us page.
+
 //small/xs screens
 @media (max-width: 767px) {
+  #home {
+    .header-text {
+      h1 {
+        font-size: 3rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        font-size: 1rem;
+      }
+    }
+  }
+
   #about {
     margin-top: 6rem;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    .about-statement {
+      font-size: 0.7rem;
+    }
+  }
+
+  #social {
+    h4 {
+      font-size: 1rem;
+    }
+
+    .row {
+      width: auto;
+    }
   }
   .phone {
     img {
@@ -418,16 +453,23 @@ body {
   }
 
   #features {
-    height: 120vh;
+    height: 100vh;
+    position: relative;
     .phone-demo {
       position: static;
       text-align: center;
     }
     .features-container {
-      position: static;
-      margin: 7rem auto;
+      position: absolute;
+      top: 25rem;
+      padding: 0 1rem;
+    }
+    .phone-demo-music {
+      display: none;
     }
   }
+
+  //contact us starts here?
 
   .jumbotron {
     padding: 2rem 2rem;

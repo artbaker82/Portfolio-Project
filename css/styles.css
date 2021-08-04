@@ -307,8 +307,22 @@ body #blob2 {
   opacity: 20%; }
 
 @media (max-width: 767px) {
+  #home .header-text h1 {
+    font-size: 3rem; }
+  #home .header-text h2 {
+    font-size: 1.5rem; }
+  #home .header-text h3 {
+    font-size: 1rem; }
   #about {
     margin-top: 6rem; }
+  #about h2 {
+    font-size: 1.5rem; }
+  #about .about-statement {
+    font-size: 0.7rem; }
+  #social h4 {
+    font-size: 1rem; }
+  #social .row {
+    width: auto; }
   .phone img {
     height: auto;
     width: 100%;
@@ -319,13 +333,17 @@ body #blob2 {
   header {
     height: 95vh; }
   #features {
-    height: 120vh; }
+    height: 100vh;
+    position: relative; }
   #features .phone-demo {
     position: static;
     text-align: center; }
   #features .features-container {
-    position: static;
-    margin: 7rem auto; }
+    position: absolute;
+    top: 25rem;
+    padding: 0 1rem; }
+  #features .phone-demo-music {
+    display: none; }
   .jumbotron {
     padding: 2rem 2rem; }
   .form-container {
